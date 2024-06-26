@@ -1,0 +1,55 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .users-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    justify-content: center;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    width: 100vw;
+    /* text-align: center; */
+  }
+  
+  .user-profile-pic img {
+    width: 120px;
+    /* height: 120px; */
+    border-radius: 50%;
+  }
+  
+  .user-details {
+    margin-top: 10px;
+    padding: 20px;
+    line-height: 25px;
+  }
+  
+  .user-name h2 {
+    padding-bottom: 8px;
+  }
+  
+  .user-job-title,
+  .user-location {
+    font-size: 16px;
+    color: #777;
+  }
+
+  .Users-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    
+  }
+  
